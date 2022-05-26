@@ -1,0 +1,11 @@
+.task-container{
+    display: block;
+    background: rebeccapurple;
+    width: 20vw;
+    padding: 1rem;
+    margin-bottom: 1em;
+}
+
+.task-container button{
+    float: right;
+}

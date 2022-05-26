@@ -1,0 +1,12 @@
+
+body,.container,.main-container{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
