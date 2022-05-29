@@ -1,10 +1,12 @@
-import './style.css'
+import {Trash} from "phosphor-react";
 
 function Task({task,deleteOnAction}){
     return(
-        <div className="task-container">
+        <div className="block bg-purple-800 w-48 p-3 m-1 text-white rounded-lg">
             {task.name}
-            <button onClick={deleteOnAction} >del</button>
+            <a className="float-right" onClick={()=>deleteOnAction()}>
+                <Trash  weight="bold" size="24" />
+            </a>
         </div>
     )
 }
